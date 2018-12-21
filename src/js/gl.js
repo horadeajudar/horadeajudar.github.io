@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    $('body').bootstrapMaterialDesign();
-
+    
     function getMobileOperatingSystem() {
         var userAgent = navigator.userAgent || navigator.vendor || window.opera;
         if (/android/i.test(userAgent)) {
